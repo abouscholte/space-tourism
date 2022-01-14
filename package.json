@@ -2,9 +2,14 @@
   "name": "space-tourism",
   "repository": "https://github.com/abouscholte/space-tourism.git",
   "license": "MIT",
+  "scripts": {
+    "start": "react-scripts start"
+  },
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "6",
     "react-scripts": "^5.0.0",
     "styled-components": "^5.3.3"
   },
@@ -15,5 +20,17 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
